@@ -1,0 +1,45 @@
+*{
+    text-align: center;
+}
+body{
+    width: 640px;
+    margin: auto; /*너비에서 남는 여백을 동일하게 분배*/
+}
+/*.background{
+    width: 800px;
+    height:600px;
+}*/
+#infor{
+    box-shadow: 10px 10px rgba(139, 180, 137, 0.671), 15px 15px rgba(255, 255, 0, 0.808), 20px 20px rgba(1, 170, 9, 0.692),25px 25px red;
+}
+
+input{
+    margin-bottom: 15px;
+    width: 500px;
+    height: 40px;
+}
+
+input.infor{
+    text-align: left;
+}
+input.phone{
+    width: 100px;
+    height: 20px;
+}
+input.button{
+    width:100px;
+    text-align:center;
+}
+input.gender{
+    width:13px;
+}
+select{
+    width: 500px;
+    height: 40px;
+}
+div{
+    width: 800px;
+    height: 800px;
+    background-color: rgba(179, 255, 159, 0.5);
+    border-radius: 10px 10px 10px 10px;
+}
