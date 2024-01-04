@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>일기장 만들기</title>
+    <style>
+        .background{
+            width: 700px;
+            height: 850px;
+            background-color: rgba(126, 218, 255, 0.342);
+            border: 2px double black;
+            text-align: center;
+            margin:auto;
+        }
+        .header{
+            width:500px;
+            height:100px;
+            border: 2px solid black;
+            margin:auto;
+            margin-top: 20px;
+        }
+        .date{
+            width:450px;
+            height:75px;
+            border: 2px solid black;
+            margin:20px auto 0px;
+        }
+        .calendar{
+            display: block;
+            text-align: right;
+            margin-right: 10px;
+        }
+        .feel{
+            text-align: right;
+            margin: 5px 10px;
+        }
+        .photo{
+            width:450px;
+            height: 250px;
+            border:2px solid black;
+            margin: 20px auto 0px;
+        }
+        img{
+            margin: 10px auto;
+        }
+        .body{
+            width:450px;
+            height:300px;
+            border:2px solid black;
+            margin:20px auto 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="header">
+            <h1>&#128073 나만의 일기장 &#128072</h1>
+        </div>
+
+        <div class="date">
+            <a class="calendar"><strong>2024년 1월 14일 목요일</strong></a>
+            <br>
+            <div class="feel">
+                <label for="range"><strong>감정상태</strong></label>
+                <input type="range" value="40" max="100" id="range" class="range">
+            </div>
+        </div>
+
+        <div class="photo">
+            <img 
+            src="https://image.ytn.co.kr/general/jpg/2021/0311/202103110915014429_d.jpg"
+            width="400"
+            class="maple"
+            >
+        </div>
+
+        <div class="body">
+            <p>나의 레벨은 <mark>277레벨</mark> 이다.&#129311</p>
+            <P>나의 서버는 <strong style="color: blue;">오로라</strong>서버 이다.&#128561</P>
+            <p style="color: brown;">나의 직업은 듀얼블레이드 이다.</p>
+            <p>나는 어제 <strong>해방</strong>했다.</p>
+            <p>나는 앞으로 더 강해질 생각이다.</p>
+            <p>앞으로도 계속 지켜봐주세요.</p>
+            <p style="font-size: 30px;">&#128591</p>
+            
+        </div>
+        <span><strong>&copy;정승민</strong></span>    
+    </div>
+</body>
+</html>
